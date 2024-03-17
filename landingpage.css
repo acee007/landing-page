@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* NAV BAR */
+#title {
+  background-image: linear-gradient(to right, blue, rgb(59, 248, 207));
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#tag {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 30px;
+  padding: 20px;
+  height: 30px;
+}
+#asset {
+  display: flex;
+  margin-left: 700px;
+}
+#asset li {
+  color: white;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-top: 35px;
+  font-size: 15px;
+}
+#asset li:hover {
+  background-image: linear-gradient(to right, blue, rgb(59, 248, 207));
+  color: lightgreen;
+}
+#button {
+  margin-right: 70px;
+  background-color: rgb(55, 230, 55);
+  color: white;
+  border-radius: 30px;
+  height: 30px;
+  width: 90px;
+  margin-top: 25px;
+}
+#button:hover {
+  color: rgb(59, 248, 207);
+  background-color: white;
+}
+/* FIRST DIV AKA BOMB */
+#bomb {
+  background-image: linear-gradient(to right, blue, rgb(59, 248, 207));
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+#pic {
+  margin-left: 536px;
+  margin-top: 90px;
+}
+#pic img {
+  height: 400px;
+  width: 400px;
+}
+#heading {
+  margin-top: 90px;
+  color: rgb(10, 247, 247);
+  font-size: 60px;
+  margin-left: 100px;
+}
+#text {
+  margin-left: 100px;
+  margin-top: 15px;
+  color: white;
+}
+#button2 {
+  color: white;
+  background-color: blue;
+  height: 40px;
+  word-spacing: 5px;
+  margin-left: 100px;
+  margin-top: 40px;
+  border-color: white;
+}
+#button2:hover {
+  background-image: linear-gradient(to right, blue, rgb(59, 248, 207));
+  color: lightgreen;
+}
+/* SECOND DIV AKA SPRING */
+#spring {
+  width: 100%;
+  height: 230px;
+  background-color: rgba(219, 215, 212, 0.562);
+}
+#text01 {
+  text-align: center;
+  color: rgb(182, 182, 182);
+}
+#line {
+  width: 285px;
+  margin-top: 5px;
+  margin-left: 650px;
+  color: rgb(182, 182, 182);
+}
+#image {
+  margin-top: 30px;
+  margin-left: 270px;
+}
+#smoke {
+  height: 300px;
+  width: 100%;
+}
+#heading01 {
+  text-align: center;
+  color: rgb(182, 182, 182);
+}
+#line1 {
+  width: 165px;
+  margin-top: 5px;
+  margin-left: 710px;
+  color: rgb(182, 182, 182);
+}
+#image1 {
+  margin-left: 250px;
+}
+/* THIRD DIV AKA FALCON */
+#falcon {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(6, 6, 109);
+}
+#heading02 {
+  margin-top: 150px;
+  text-align: center;
+  color: rgb(182, 182, 182);
+}
+#line2 {
+  width: 165px;
+  margin-top: 5px;
+  margin-left: 710px;
+  color: rgb(182, 182, 182);
+}
+#pic {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+#image001 {
+  margin-right: 550px;
+}
+.same1:hover {
+  border: 14px cyan;
+  border-style: double;
+}
+/* FOURTH DIV AKA CREW */
+#crew {
+  background-color: rgba(219, 215, 212, 0.562);
+  width: 100%;
+  height: 450px;
+}
+#heading03 {
+  color: rgb(182, 182, 182);
+  text-align: center;
+}
+#line3 {
+  color: rgb(182, 182, 182);
+  width: 210px;
+  margin-left: 685px;
+}
+#lastimg {
+  margin-top: 20px;
+  margin-left: 280px;
+}
